@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>V</span>enkata <span>L</span>ikith <span>S</span>ai <span>K</span>ovi</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#skills" data-after="Skills">skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Likith Sai <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="skills container">
+      <div class="skills-top">
+        <h1 class="skills-title">Sk<span>i</span>lls</h1>
+        <p>Things that I am good at.</p>
+      </div>
+      <div class="skills-bottom">
+        <div class="skills-item">
+          <div class="icon"><img src="https://th.bing.com/th/id/OIP.-wK8kSbegCP7kdE8hVjRCQHaHk?rs=1&pid=ImgDetMain" /></div>
+          <h2>C Programming</h2>
+          <p>Good with the C programming basics.</p>
+        </div>
+        <div class="skills-item">
+          <div class="icon"><img src="https://pngset.com/images/html-css-icon-html-css-logo-label-text-symbol-sticker-transparent-png-505239.png" /></div>
+          <h2>HTML & CSS</h2>
+          <p>Skillfull with HTML and CSS Tags and Attributes.</p>
+        </div>
+        <div class="skills-item">
+          <div class="icon"><img src="https://www.pinclipart.com/picdir/middle/534-5345877_python-logo-clipart.png" /></div>
+          <h2>Python</h2>
+          <p>Strong with the fundamentals of the language.</p>
+        </div>
+        <div class="skills-item">
+          <div class="icon"><img src="https://th.bing.com/th/id/OIP.qUsonnBsHnioyl78SFCZfQHaGa?rs=1&pid=ImgDetMain" /></div>
+          <h2>JAVA</h2>
+          <p>Good to go with the basic fundamentals of OOPS</p>
+        </div>
+        <div class="skills-item">
+          <div class="icon"><img src="https://e7.pngegg.com/pngimages/793/545/png-clipart-javascript-logo-computer-icons-vue-js-angle-text-thumbnail.png" /></div>
+          <h2>JAVA SCRIPT</h2>
+          <p>Basic Knowledge about the scripting language</p>
+        </div>
+        
+        <div class="skills-item">
+          <div class="icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4zoDKxuY8xufE4Rlgowi-IfPzFy4nUIbi6Q&s" /></div>
+          <h2>SQL</h2>
+          <p>Hands on experiences on various query problems</p>
+        </div>
+        <div class="skills-item">
+          <div class="icon"><img src="data:image/png;base64,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" /></div>
+          <h2>BOOTSTRAP</h2>
+          <p>Bootstrap icons usage for full stack projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Skills Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Works</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Weather Dashboard</h1>
+            <p>Weather prediction is the application of technology to predict the action of the atmosphere for a given 
+              location.When you enter the different city name and find the weather forecast it will show the accurate weather 
+              forecasting information of your city. It will also show you the temperature, wind speed, humidity, and 
+              sunshine. It will give you accurate weather predictions for every three hours.</p>
+            <P> </P>
+  
+          </div>
+          <div class="project-img">
+          <img src="https://i.ibb.co/RjyhwKH/Screenshot-26-8-2024-142223.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Power BI Dashboard</h1>
+            <p>A Power BI dashboard is a single page, often called a canvas, that tells a story through visualizations.</p>
+            <p>Considering an example,the result displays about the Venkat Sales Market Analytics through Power BI Desktop.</p>
+          </div>
+          <div class="project-img">
+            <img src="https://i.ibb.co/cNTkhVg/Screenshot-2024-01-28-150201.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Restaurant App</h1>
+            <p>A online Food Ordering Restaurant Application named as Zig-Zag Restaurant,created by using some frontend development tools like HTML, CSS and Javascript.</p>
+          </div>
+          <div class="project-img">
+            <img src="https://i.ibb.co/X4pWkqf/Whats-App-Image-2024-08-26-at-14-48-50-90fcc33f.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>AI Powered Product - Voyance</h1>
+            <p>A digital assistant that learns a traveler’s preferences in real-time—food, pace, interests—and dynamically adjusts the entire trip on-the-go. It suggests off-the-beaten-path
+               experiences only locals know, with AI curating each day based on moods and energy levels.</p>
+  <p>URL:-"https://voyance.wegic.app/home"</p>
+              </div>
+              
+          <div class="project-img">
+         <img src="https://i.postimg.cc/xC6KGvS5/7bae436f-d501-448c-9e35-a8cb798c1785.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="https://i.ibb.co/ZXj9n3B/IMG-7723-1.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Student</h2>
+        <p>Hi there! I’m Likith Sai, a dedicated student currently pursuing BTECH at Guru Nanak Institutions Technical Campus in the field of Artificial Intelligence and Data Science. My passion lies in Data Analyst, and I’m constantly exploring new ways to expand my knowledge and skills in this area.
+          Throughout my academic journey, I had the opportunity to work on various projects, including Weather Forecasting Dashboard,Power BI Dashboard,Restaurant Web application, AI Generated Product named Voyance and lot more. These experiences have not only honed my technical abilities but also taught me the importance of teamwork, creativity, and perseverance.</p>
+        <a target="_blank" href="Resume.pdf" class="cta">Download Resume <i class="ri-download-line"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 85228 31788</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>sailikith511@gmail.com</h2>
+            <h2>sailikith57@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Hyderabad, Telangana, India</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>L</span>ikith <span>S</span>ai</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2024 Likith. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
